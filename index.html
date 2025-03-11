@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solar System Simulator</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="day-tracker">
+        <span>Day: </span>
+        <span id="day-count">0</span>
+      </div>
+      <div class="controls">
+        <button id="slower">Slower</button>
+        <button id="pause">Pause</button>
+        <button id="faster">Faster</button>
+      </div>
+    </header>
+    
+    <main>
+      <div id="solar-system"></div>
+    </main>
+    
+    <footer>
+      <div class="info-panel">
+        <h3>Solar System Simulator</h3>
+        <p>Use the controls to adjust the simulation speed.</p>
+      </div>
+    </footer>
+  </div>
+  
+  <script type="module" src="./main.js"></script>
+</body>
+</html> 
